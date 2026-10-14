@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 	int sayikurus10;
 	int sayikurus5;
 	int sayikurus1;
+	int toplamkupursayisi;
 	float odenenpara = 20.00;
 	float ondalik;
 	int paraustu;
@@ -88,5 +89,7 @@ int main(int argc, char *argv[])
 	paraustu = paraustu - kurus1 * sayikurus1;
 	printf("1 Kurus Sayisi: %d\n", sayikurus1);
 
+	toplamkupursayisi = sayibanknot200 + sayibanknot100 + sayibanknot50 + sayibanknot20 + sayibanknot10 + sayibanknot5 + sayibanknot1 + sayikurus50 + sayikurus25 + sayikurus10 + sayikurus5 + sayikurus1;
+	printf("Verilen Toplam Kupur Sayisi: %d",toplamkupursayisi);
 	return 0;
 }
